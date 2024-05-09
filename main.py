@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import smtplib
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='template', static_folder='../static')
 
 
 EMAIL = os.environ.get('EMAIL')
