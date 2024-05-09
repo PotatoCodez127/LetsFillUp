@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 
-EMAIL = os.environment.get('EMAIL')
-PASSWORD = os.environment.get('PASSWORD')
+EMAIL = os.environ.get('EMAIL')
+PASSWORD = os.environ.get('PASSWORD')
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
