@@ -1,15 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
 import smtplib
-
-from os import getenv
-from dotenv import find_dotenv, load_dotenv
+import os
 
 app = Flask(__name__)
 
-dotenv_path = find_dotenv()
-load_dotenv(dotenv_path)
-EMAIL = getenv('EMAIL')
-PASSWORD = getenv('PASSWORD')
+
+EMAIL = os.environment.get('EMAIL')
+PASSWORD = os.environment.get('PASSWORD')
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
