@@ -102,14 +102,12 @@ To get a local copy up and running follow these simple example steps.
 
 2. Create a `.env` file for environment variables
 
-3. Create a `Flask_SECRET_KEY` vairable for the secret key
-   ```flask
-   Flask_SECRET_KEY = 'RANDOM STRING FOR KEY';
+3. Inside the `main.py` replace line `48` and `49`
    ```
-4. Inside the `main.py` replace line `48` and `49`
-   ```
-   OWN_EMAIL = "YOUR OWN EMAIL ADDRESS"
-   OWN_PASSWORD = "YOUR EMAIL ADDRESS PASSWORD"
+    EMAIL = `OWN EMAIL PASSWORD`
+    PASSWORD = `OWN APP PASSWORD`
+    
+    EMAIL_HOST = 'smtp.gmail.com' - [if you are using gmail servise]
    ```
    With your own email adress and set up an app password through google for your Flask app for the password field.
    
