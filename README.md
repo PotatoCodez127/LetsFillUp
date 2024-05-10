@@ -102,7 +102,7 @@ To get a local copy up and running follow these simple example steps.
 
 2. Create a `.env` file for environment variables
 
-3. Inside the `main.py` replace line `48` and `49`
+3. Inside the `main.py` replace line `8` and `9`
    ```
     EMAIL = `OWN EMAIL PASSWORD`
     PASSWORD = `OWN APP PASSWORD`
