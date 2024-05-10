@@ -17,24 +17,27 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/PotatoCodez127/MyBlogProject">
-    <img src="Images/Python-Dark.svg" alt="Logo" width="90" height="90">
+  <a href="https://github.com/PotatoCodez127/LetsFillUp">
+    <img src="static\images\Python-Dark.svg" alt="Logo" width="125" height="125">
   </a>
+  <hl/>
 
-<h3 align="center">My Flask Blog Project</h3>
-
+<h3 align="center">Running Low? Let's fill up! At</h3>
+  <a href="https://letsfillup.onrender.com/">
+    <img src="static\images\logo.png" alt="Logo" width="90" height="90">
+  </a>
   <p align="center">
-    This is a project to show the usage of various libraries revolving mainly around Flask and Bootstrap.
-    See <a href="#built-with">here</a> for all libraries and frameworks used in this project.
+    Welcome to GD Fuels. A website built for a fuel company that excels in the delivery of your fuel.
+    See <a href="#built-with">here</a> for all libraries and frameworks used in this web app.
     <br />
-    <a href="https://github.com/PotatoCodez127/MyBlogProject"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PotatoCodez127/LetsFillUp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/PotatoCodez127/MyBlogProject">View Demo</a>
+    <a href="https://github.com/PotatoCodez127/LetsFillUp">View Demo</a>
     ·
-    <a href="https://github.com/PotatoCodez127/MyBlogProject/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/PotatoCodez127/LetsFillUp/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/PotatoCodez127/MyBlogProject/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/PotatoCodez127/LetsFillUp/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -68,7 +71,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is a project to show the usage of various libraries revolving mainly around Flask and Bootstrap.     See <a href="#built-with"> _here_ </a> for all libraries and frameworks used in this project.
+This project is a web app built for a company to expand their usage and advertise on the internet using mostly Flask and Bootstrap.     See <a href="#built-with"> _here_ </a> for all libraries and frameworks used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,9 +81,8 @@ This is a project to show the usage of various libraries revolving mainly around
 
 * [![Python]][Python-url]
 * [![Flask]][Flask-url]
-* [![SQLAlchemy]][SQLAlchemy-url]
+* [![SMTPLIB]][Flask-url]
 * [![Jinja]][Jinja-url]
-* [![werkzeug]][werkzeug-url]
 * [![Bootstrap.com]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,7 +97,7 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/PotatoCodez127/MyBlogProject.git
+   git clone https://github.com/PotatoCodez127/LetsFillUp.git
    ```
 
 2. Create a `.env` file for environment variables
@@ -116,20 +118,13 @@ To get a local copy up and running follow these simple example steps.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Create basic Blog application with `Flask`.
+- [x] Create basic Static application with `Flask`.
 - [x] Add `Bootstrap` into `HTML` templates and page routing.
-- [x] Create an API endpoint to display blog data
-- [x] Add `CRUD` operations
+- [x] Change Images and use a `HEX palette` to create a theme 
 - [x] Add dynamic data to HTML templates using `Jinja`
-- [x] Create a `SQLite` database and impliment `SQLAlchemy`
-- [x] Create User authentication
-- [x] Create forms with `Flask-wtf` to 'Sign up' and 'Log-in'
-- [x] Add security to encrypt or hash passwords with `Werkzeug`
-- [x] Add administrator roles so users cannot add/delete/ posts
-- [x] Add a comment section to posts
-- [ ] Deploy website
+- [x] Deploy website
 
-See the [open issues](https://github.com/PotatoCodez127/MyBlogProject/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/PotatoCodez127/LetsFillUp/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,27 +162,29 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 My email adress: jeandre.c127@gmail.com
 
-Project Link: [https://github.com/PotatoCodez127/MyBlogProject](https://github.com/PotatoCodez127/MyBlogProject)
+Project Link: [https://github.com/PotatoCodez127/LetsFillUp](https://github.com/PotatoCodez127/LetsFillUp)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/PotatoCodez127/MyBlogProject.svg?style=for-the-badge
-[contributors-url]: https://github.com/PotatoCodez127/MyBlogProject/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/PotatoCodez127/MyBlogProject.svg?style=for-the-badge
-[forks-url]: https://github.com/PotatoCodez127/MyBlogProject/network/members
-[stars-shield]: https://img.shields.io/github/stars/PotatoCodez127/MyBlogProject.svg?style=for-the-badge
-[stars-url]: https://github.com/PotatoCodez127/MyBlogProject/stargazers
-[issues-shield]: https://img.shields.io/github/issues/PotatoCodez127/MyBlogProject.svg?style=for-the-badge
-[issues-url]: https://github.com/PotatoCodez127/MyBlogProject/issues
+[contributors-shield]: https://img.shields.io/github/contributors/PotatoCodez127/LetsFillUp.svg?style=for-the-badge
+[contributors-url]: https://github.com/PotatoCodez127/LetsFillUp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PotatoCodez127/LetsFillUp.svg?style=for-the-badge
+[forks-url]: https://github.com/PotatoCodez127/LetsFillUp/network/members
+[stars-shield]: https://img.shields.io/github/stars/PotatoCodez127/LetsFillUp.svg?style=for-the-badge
+[stars-url]: https://github.com/PotatoCodez127/LetsFillUp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PotatoCodez127/LetsFillUp.svg?style=for-the-badge
+[issues-url]: https://github.com/PotatoCodez127/LetsFillUp/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: www.linkedin.com/in/jeandre-coetzee-642a892b8
-[product-screenshot]: Images/image.png
+[product-screenshot]: static/images/GDF.gif
 [Python]: https://img.shields.io/badge/python-dfdfdf?style=for-the-badge&logo=python&
 [Python-url]: https://www.python.org/
 [Flask]: https://img.shields.io/badge/Flask-313131?style=for-the-badge&logo=flask&
 [Flask-url]: https://flask-login.readthedocs.io/en/latest/
+[SMTPLIB]: https://img.shields.io/badge/Smtplib-362e24?style=for-the-badge&logo=gmail&
+[SMTPLIB-url]: https://docs.python.org/3/library/smtplib.html
 [SQLAlchemy]: https://img.shields.io/badge/SQLAlchemy-506942?style=for-the-badge&logo=SQLAlchemy&
 [SQLAlchemy-url]: https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/
 [Jinja]: https://img.shields.io/badge/Jinja-990000?style=for-the-badge&logo=Jinja&
